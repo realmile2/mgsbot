@@ -36,6 +36,9 @@ client.on('message', message => {
     if (message.content === '/cmds') {
     	message.reply('**There are no commands**');
     }
+    if (message.content === '/ping') {
+    	message.reply('Your ping is: 4655 ms');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
