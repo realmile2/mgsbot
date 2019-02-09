@@ -34,7 +34,7 @@ client.on('message', message => {
     	message.reply('oh no, u got me');
     }
     if (message.content === '/cmds') {
-    	message('**There are no commands**');
+    	message.send('**There are no commands**');
     }
 });
 
