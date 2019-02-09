@@ -33,6 +33,9 @@ client.on('message', message => {
     if (message.content === 'block') {
     	message.reply('oh no, u got me');
     }
+    if (message.content === '/cmds') {
+    	message('**There are no commands**');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
