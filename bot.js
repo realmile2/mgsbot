@@ -49,4 +49,4 @@ function multiplyCommand(arguments, receivedMessage) {
     receivedMessage.channel.send("The product of " + arguments + " multiplied together is: " + product.toString())
 }
 
-client.login("XXXXXXXXXXX") // Replace XXXXX with your bot token
+client.login("BOT-TOKEN") // Replace XXXXX with your bot token
