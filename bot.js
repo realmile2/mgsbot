@@ -9,6 +9,12 @@ client.on('message', message => {
     if (message.content === '/?') {
     	message.reply('Commands: *Sorry there are no commands currently!*');
   	}
+    if (message.content === 'u suck') {
+    	message.reply('no u');
+    }
+    if (message.content === 'hi') {
+    	message.reply('Hello!');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
