@@ -15,6 +15,24 @@ client.on('message', message => {
     if (message.content === 'hi') {
     	message.reply('Hello!');
     }
+    if (message.content === 'no u') {
+    	message.reply('uno');
+    }
+    if (message.content === 'uno') {
+    	message.reply('reverse');
+    }
+    if (message.content === 'reverse') {
+    	message.reply('+4');
+    }
+    if (message.content === '+4') {
+    	message.reply('block');
+    }
+    if (message.content === 'no no u') {
+    	message.reply('no uno');
+    }
+    if (message.content === 'block') {
+    	message.reply('oh no, u got me');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
