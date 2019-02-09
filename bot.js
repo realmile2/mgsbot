@@ -39,6 +39,9 @@ client.on('message', message => {
     if (message.content === '/ping') {
     	message.reply('Your ping is: 4655 ms');
     }
+    if (message.content === 'ping') {
+    	message.reply('pong');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
